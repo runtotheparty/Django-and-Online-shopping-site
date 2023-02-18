@@ -1,0 +1,22 @@
+
+
+h1 {
+    color: rgb(14, 6, 246);
+    font-weight: lighter;
+}
+.moreButton {
+    font-weight: bold;
+}
+#firstmorebutton {
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    text-align: center;
+    color: red;
+  } 

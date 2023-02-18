@@ -1,0 +1,241 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title> Chimneys R Us </title>
+  </head>
+  <body class="bg-success text-white">
+
+<!-- Got the idea for opacity on hover from https://stackoverflow.com/questions/40769694/overlay-transparent-image-on-hover 
+Cards code sourced from https://getbootstrap.com/docs/5.3/components/card/-->
+    <div class="container-fluid">
+      <h1 class="text-center mt-5">Chimneys R Us</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="{% static 'Chimney/Chim1.jpg' %}"
+              class="card-img-top"
+              alt="Chimney"
+    
+              style="opacity: 1; transition: opacity 0.3s;"
+              onmouseover="this.style.opacity=0.6"
+              onmouseout="this.style.opacity=1"
+            />
+            <div class="card-body text-dark">
+              <h5 class="card-title">Chimney 1</h5>
+              <p class="card-text">Price: £520</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="{% static 'Chimney/Chim2.jpg' %}"
+              class="card-img-top"
+              alt="Chimney"
+              style="opacity: 1; transition: opacity 0.3s;"
+              onmouseover="this.style.opacity=0.6"
+              onmouseout="this.style.opacity=1"
+            />
+            <div class="card-body text-dark">
+              <h5 class="card-title">Chimney 2</h5>
+              <p class="card-text">Price: £540</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="{% static 'Chimney/Chim3.jpg' %}"
+              class="card-img-top"
+              alt="Chimney"
+              style="opacity: 1; transition: opacity 0.3s;"
+              onmouseover="this.style.opacity=0.6"
+              onmouseout="this.style.opacity=1"
+            />
+            <div class="card-body text-dark">
+              <h5 class="card-title">Chimney 3</h5>
+              <p class="card-text">Price: £430</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+              <img
+                src="{% static 'Chimney/Chim4.webp' %}"
+                class="card-img-top"
+                alt="Chimney"
+                style="opacity: 1; transition: opacity 0.3s;"
+                onmouseover="this.style.opacity=0.6"
+                onmouseout="this.style.opacity=1"
+              />
+              <div class="card-body text-dark">
+                <h5 class="card-title">Chimney 4</h5>
+                <p class="card-text">Price: £650</p>
+                <button class="btn btn-primary">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="{% static 'Chimney/Chim5.jpg' %}"
+                class="card-img-top"
+                alt="Chimney"
+                style="opacity: 1; transition: opacity 0.3s;"
+                onmouseover="this.style.opacity=0.6"
+                onmouseout="this.style.opacity=1"
+              />
+              <div class="card-body text-dark">
+                <h5 class="card-title">Chimney 5</h5>
+                <p class="card-text">Price: £690</p>
+                <button class="btn btn-primary">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="{% static 'Chimney/Chim6.jfif' %}"
+                class="card-img-top"
+                alt="Chimney"
+                style="opacity: 1; transition: opacity 0.3s;"
+                onmouseover="this.style.opacity=0.6"
+                onmouseout="this.style.opacity=1"
+              />
+              <div class="card-body text-dark">
+                <h5 class="card-title">Chimney 6</h5>
+                <p class="card-text">Price: £850</p>
+                <button class="btn btn-primary">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="{% static 'Chimney/Chim7.jpg' %}"
+                class="card-img-top"
+                alt="Chimney"
+                style="opacity: 1; transition: opacity 0.3s;"
+                onmouseover="this.style.opacity=0.6"
+                onmouseout="this.style.opacity=1"
+              />
+              <div class="card-body text-dark">
+                <h5 class="card-title">Chimney 7</h5>
+                <p class="card-text">Price: £810</p>
+                <button class="btn btn-primary">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="{% static 'Chimney/Chim8.gif' %}"
+                class="card-img-top"
+                alt="Chimney"
+                style="opacity: 1; transition: opacity 0.3s;"
+                onmouseover="this.style.opacity=0.6"
+                onmouseout="this.style.opacity=1"
+              />
+              <div class="card-body text-dark">
+                <h5 class="card-title">Chimney 8</h5>
+                <p class="card-text">Price: £1050</p>
+                <button class="btn btn-primary">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="{% static 'Chimney/Chim9.jpg' %}"
+                class="card-img-top"
+                alt="Chimney"
+                style="opacity: 1; transition: opacity 0.3s;"
+                onmouseover="this.style.opacity=0.6"
+                onmouseout="this.style.opacity=1"
+              />
+              <div class="card-body text-dark">
+                <h5 class="card-title">Chimney 9</h5>
+                <p class="card-text">Price: £1250</p>
+                <button class="btn btn-primary">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="{% static 'Chimney/Chim10.jpg' %}"Chim10.jpg" 
+                class="card-img-top"
+                alt="Chimney"
+                style="opacity: 1; transition: opacity 0.3s;"
+                onmouseover="this.style.opacity=0.6"
+                onmouseout="this.style.opacity=1"
+              />
+              <div class="card-body text-dark">
+                <h5 class="card-title">Chimney 10</h5>
+                <p class="card-text">Price: £2850</p>
+                <button class="btn btn-primary">Buy</button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="p-3 mb-2 bg-success text-white"></div>
+
+
+
+    <!-- Footer info from https://mdbootstrap.com/docs/standard/tools/builders/footer/-->
+
+<footer class="bg-secondary text-center ">
+    <div class="container p-4">
+      <section class="">
+        <form action="">
+          <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Fill in your contact details for a quote</strong>
+              </p>
+            </div>
+            <div class="col-md-5 col-12">
+              <div class="form-outline mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2">Name: </label>
+              </div>
+              <div class="form-outline mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2">Email address: </label>
+              </div>
+            </div>
+            <div class="col-auto">
+  
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary mb-4">
+                Click here to submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+  
+  
+
+      <section class="mb-4">
+        <p>
+          The best chimneys at the lowest prices you'll ever find!
+        </p>
+      </section>
+    </div>
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.722)">
+    </div>
+    <img src="{% static 'Chimney\271-2718306_chimneys-r-us-chimneys-r-us.png' %}">
+  
+  </footer>
